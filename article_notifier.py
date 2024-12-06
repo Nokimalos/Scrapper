@@ -28,14 +28,6 @@ def send_discord_notification(title, message):
 
 def main():
     previous_content_hash = None
-
-    print(WEBHOOK_URL)
-    print(URL)
-
-    send_discord_notification(
-                        "COUCOU KAANNNN !!!",
-                        f"Un nouvel article est disponible sur {URL}"
-                    )
     
     while True:
         try:
